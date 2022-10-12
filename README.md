@@ -48,7 +48,7 @@ In most scenarios, EIRSAT-1 will be transmitting Beacon type 2 - the Primary sof
 
 # Recordings
 
-The 'Recordings' folder contains several recordings of the satellite beacon in different configurations. The recordings have been made using an RTLSDR software defined radio and FM demodulated. It also contains text files, one frame per line, with the expected data bytes for each recording.
+The 'Recordings' folder contains several recordings of the satellite beacon in different configurations. The recordings have been made using an RTLSDR software defined radio and FM demodulated. It also contains text files, one frame per line, with the expected data bytes for each recording. Note: these recordings do need to be played back with a gain of -1 in gr-satellites.
 
 | Filename                  | Description | Beacons in Recording |
 | ------------------------- | ----------- |:-:|
