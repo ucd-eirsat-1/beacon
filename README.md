@@ -38,10 +38,11 @@ EIRSAT-1 has several beacon types:
 
 | ID | Name               | Purpose |
 |:--:| ------------------ | ------- |
-|  0 | Failsafe           | Transmitted by the Failsafe software image                              |
-|  1 | Failsafe (in-pass) | Transmitted by the Failsafe software image during a Ground Station pass |
-|  2 | Primary            | Transmitted by the Primary software image                               |
-|  3 | Primary (in-pass)  | Transmitted by the Primary software image during a Ground Station pass  |
+|  0 | Failsafe           | Transmitted by the Failsafe software image                                 |
+|  2 | Primary            | Transmitted by the Primary software image                                  |
+|  3 | Primary (in-pass)  | Transmitted by the Primary software image during a Ground Station pass     |
+|  4 | GMOD Spectrum      | Transmitted by the Primary software image after a GRB trigger has occurred |
+|  5 | GMOD Lightcurve    | Transmitted by the Primary software image after a GRB trigger has occurred |
 
 In most scenarios, EIRSAT-1 will be transmitting Beacon type 2 - the Primary software image will be active and EIRSAT-1 will not be within range of a Ground Station. If you live in Western Europe, you might observe EIRSAT-1 while it's in range of a Ground Station so you could also often see Beacon type 3 aswell as a lot of other packet types, particularly LDTs. If you live in Dublin, you will probably never see Beacon type 2! You'll see all the same data that the EIRSAT-1 team is getting from the Ground Station.
 
